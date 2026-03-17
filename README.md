@@ -40,3 +40,7 @@ Formular:
 - **[Post erstellen]**
 
 Beim **Abschicken** wird der Post in der **Datenbank** gespeichert.
+## 4. Seitenstruktur der Website ##
+**Startseite**
+Alle Posts anzeigen
+- Button: Neuer Post
