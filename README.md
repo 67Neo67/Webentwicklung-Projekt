@@ -45,7 +45,7 @@ Beim **Abschicken** wird der Post in der **Datenbank** gespeichert.
 
 Bei jedem Post gibt es: [Bearbeiten]
 
-Dann öffnet sich ein Formular mit den vorhandenen Daten.
+Dann öffnet sich ein Formular mit den **vorhandenen Daten.**
 
 **4. Post löschen (Delete)**
 
@@ -57,9 +57,11 @@ Post wird aus der Datenbank entfernt.
 **Startseite:**
 Alle Posts anzeigen
 - Button: Neuer Post
+
 **Neuer Post**
 
 Formular zum Erstellen
+
 **Post Detailseite**
 
 Post anzeigen
