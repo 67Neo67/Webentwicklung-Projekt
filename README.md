@@ -4,12 +4,12 @@ Die Webapplikation ist eine vereinfachte Forum-Plattform, auf der Nutzer Beiträ
 Die Anwendung verwaltet dabei Posts und Kommentare.
 Beiträge können erstellt, angezeigt, bearbeitet und gelöscht werden.
 
-2. Daten (Datenbankstruktur)
+2. ## Daten (Datenbankstruktur)##
 Tabelle: Posts
 
 | Feld        | Beschreibung      |
 | ----------- | ----------------- |
-| id          | einduteige ID     |
+| id          | eindeutige ID     |
 | title       | Titel des Beitrags|
 | content     |Inhalt des Beitrags|
 | author      | Name des Authors  |
