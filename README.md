@@ -33,10 +33,10 @@ Liste aller Posts
 - Datum
 
 **2. Post erstellen (Create)**
-
 Formular:
 - Titel
 - Inhalt
 - Autor
 - **[Post erstellen]**
+
 Beim **Abschicken** wird der Post in der **Datenbank** gespeichert.
