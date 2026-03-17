@@ -38,15 +38,20 @@ Formular:
 - Inhalt
 - Autor
 - **[Post erstellen]**
+
 **3. Post bearbeiten (Update)**
+
 Bei jedem Post gibt es:
 
 [Bearbeiten]
 
 Dann öffnet sich ein Formular mit den vorhandenen Daten.
+
 **4. Post löschen (Delete)**
 Button:
+
 [Löschen]
+
 Post wird aus der Datenbank entfernt.
 
 Beim **Abschicken** wird der Post in der **Datenbank** gespeichert.
