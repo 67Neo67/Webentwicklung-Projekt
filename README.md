@@ -6,10 +6,11 @@ Beiträge können erstellt, angezeigt, bearbeitet und gelöscht werden.
 
 2. Daten (Datenbankstruktur)
 Tabelle: Posts
-| Feld        | Beschreibung |
-| ----------- | ----------- |
-| id      | einduteige ID       |
-| title   | Titel des Beitrags        |
-| content    | Inhalt des Beitrags    |
-| author   | Name des Authors         |
-| created_at    | Erstellungsdatum       |
+
+| Feld        | Beschreibung      |
+| ----------- | ----------------- |
+| id          | einduteige ID     |
+| title       | Titel des Beitrags|
+| content     |Inhalt des Beitrags|
+| author      | Name des Authors  |
+| created_at  | Erstellungsdatum  |
