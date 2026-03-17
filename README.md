@@ -40,6 +40,7 @@ Formular:
 - **[Post erstellen]**
 
 Beim **Abschicken** wird der Post in der **Datenbank** gespeichert.
+
 **3. Post bearbeiten (Update)**
 
 Bei jedem Post gibt es: [Bearbeiten]
@@ -57,6 +58,8 @@ Post wird aus der Datenbank entfernt.
 Alle Posts anzeigen
 - Button: Neuer Post
 **Neuer Post**
+
 Formular zum Erstellen
 **Post Detailseite**
+
 Post anzeigen
