@@ -5,7 +5,7 @@ Die Anwendung verwaltet dabei Posts und Kommentare.
 Beiträge können erstellt, angezeigt, bearbeitet und gelöscht werden.
 
 2. ## Daten (Datenbankstruktur) ##
-Tabelle: Posts
+**Tabelle: Posts**
 
 | Feld        | Beschreibung      |
 | ----------- | ----------------- |
@@ -15,7 +15,7 @@ Tabelle: Posts
 | author      | Name des Authors  |
 | created_at  | Erstellungsdatum  |
 
-Tabelle: Comments
+**Tabelle: Comments**
 
 | Feld        | Beschreibung      |
 | ----------- | ----------------- |
