@@ -24,3 +24,10 @@ Beiträge können erstellt, angezeigt, bearbeitet und gelöscht werden.
 | author      |Inhalt des Beitrags|
 | text        | Name des Authors  |
 | created_at  | Datum             |
+3. ## Funktionen der Webapp ##
+**1. Posts anzeigen**
+Startseite zeigt:
+Liste aller Posts
+Titel
+Autor
+Datum
