@@ -31,6 +31,7 @@ Liste aller Posts
 - Titel
 - Autor
 - Datum
+
 **2. Post erstellen (Create)**
 Formular:
 Titel
