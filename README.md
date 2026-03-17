@@ -28,6 +28,6 @@ Beiträge können erstellt, angezeigt, bearbeitet und gelöscht werden.
 **1. Posts anzeigen**
 Startseite zeigt:
 Liste aller Posts
-Titel
-Autor
-Datum
+- Titel
+- Autor
+- Datum
