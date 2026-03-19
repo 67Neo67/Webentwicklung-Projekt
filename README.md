@@ -57,14 +57,14 @@ Button:
 
 Post wird aus der Datenbank entfernt.
 ## 4. Seitenstruktur der Website ##
-**Startseite:**
+- **Startseite:**
 Alle Posts anzeigen
-- Button: Neuer Post
+ Button: Neuer Post
 
-**Neuer Post**
+- **Neuer Post**
 
 Formular zum Erstellen
 
-**Post Detailseite**
+- **Post Detailseite**
 
 Post anzeigen
