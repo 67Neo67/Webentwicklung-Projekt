@@ -37,15 +37,18 @@ Formular:
 - Titel
 - Inhalt
 - Autor
-- **[Post erstellen]**
+- *[Post erstellen]*
 
 Beim **Abschicken** wird der Post in der **Datenbank** gespeichert.
+
+
 
 **3. Post bearbeiten (Update)**
 
 Bei jedem Post gibt es: [Bearbeiten]
 
 Dann öffnet sich ein Formular mit den **vorhandenen Daten.**
+
 
 **4. Post löschen (Delete)**
 
