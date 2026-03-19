@@ -41,16 +41,13 @@ Formular:
 
 Beim **Abschicken** wird der Post in der **Datenbank** gespeichert.
 
-
-
-**3. Post bearbeiten (Update)**
+ **3. Post bearbeiten (Update)**
 
 Bei jedem Post gibt es: [Bearbeiten]
 
 Dann öffnet sich ein Formular mit den **vorhandenen Daten.**
-
-
-**4. Post löschen (Delete)**
+ 
+ **4. Post löschen (Delete)**
 
 Button:
 [Löschen]
