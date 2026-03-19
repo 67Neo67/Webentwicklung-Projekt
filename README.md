@@ -59,6 +59,7 @@ Post wird aus der Datenbank entfernt.
 ## 4. Seitenstruktur der Website ##
 - **Startseite:**
 Alle Posts anzeigen
+ 
  Button: Neuer Post
 
 - **Neuer Post**
