@@ -69,3 +69,9 @@ Formular zum Erstellen
 - **Post Detailseite**
 
 Post anzeigen
+
+## 5. Minimales Design ##
+Ganz einfach reicht:
+- Navigation oben
+- Liste der Posts
+- Buttons
