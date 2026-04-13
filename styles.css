@@ -1,4 +1,58 @@
- p {
-     background: blue;
-     color: white;
- }
+
+:root {
+  --primary: #ff4500;
+  --bg: #f5f5f5;
+  --card: #ffffff;
+  --text: #222;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  display: grid;
+  gap: 15px;
+}
+
+.post {
+  background: var(--card);
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.post:hover {
+  transform: scale(1.02);
+}
+
+.meta {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  header {
+    font-size: 18px;
+  }
+}
