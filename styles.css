@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 
-header {
+header { /* Organgener Header */
   background: var(--primary);
   color: white;
   padding: 15px;
@@ -29,7 +29,7 @@ header {
   gap: 15px;
 }
 
-.post {
+.post { /* Styling für die Posts */
   background: var(--card);
   padding: 15px;
   border-radius: 12px;
@@ -37,11 +37,11 @@ header {
   transition: transform 0.2s ease;
 }
 
-.post:hover {
+.post:hover { /* Animation für drüber hovern (vlt raus nehmen) */
   transform: scale(1.02);
 }
 
-.meta {
+.meta { /* Infos über Erstellung */
   color: gray;
   font-size: 12px;
   margin-bottom: 5px;
