@@ -1,50 +1,39 @@
+<!-- ================= index.html ================= -->
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
-  <meta charset="UTF-8"> <!-- Das Umlaute richig dargestellt werden -->
+  <meta charset="UTF-8">
   <title>Mini Reddit</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-  <header role="banner">Mini Reddit</header>
+<header>Mini Reddit</header>
 
-  <main class="container">
-    <h2>Posts</h2>
+<div class="container">
+  <h2>Posts</h2>
 
-    <button class="create-btn">+ Neuer Post</button>
+  <!-- Button öffnet Popup -->
+  <button id="openModalBtn" class="create-btn">+ Neuer Post</button>
 
-    <div class="post">
-      <h3>Mein erstes Projekt</h3>
-      <div class="meta">von Neo | 19.03.2026</div>
-      <p>Ich baue gerade meine erste Webapplikation für den Kurs 😄</p>
-      <div class="actions">
-        <button>Löschen</button>
-      </div>
+  <div id="posts"></div>
+</div>
+
+<!-- Popup Modal -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <h2>Neuer Post</h2>
+    <input type="text" id="title" placeholder="Titel">
+    <textarea id="content" placeholder="Inhalt"></textarea>
+    <input type="text" id="author" placeholder="Autor">
+
+    <div class="modal-actions">
+      <button id="createBtn">Erstellen</button>
+      <button id="closeModalBtn">Abbrechen</button>
     </div>
+  </div>
+</div>
 
-    <div class="post">
-      <h3>Webentwicklung macht Spaß</h3>
-      <div class="meta">von Mika | 18.03.2026</div>
-      <p>HTML, CSS und JavaScript sind echt interessant zu lernen.</p>
-      <div class="actions">
-        <button>Löschen</button>
-      </div>
-    </div>
-
-    <div class="post">
-      <h3>Tipps für Anfänger?</h3>
-      <div class="meta">von Alex | 17.03.2026</div>
-      <p>Habt ihr gute Tipps für Leute, die gerade mit Webentwicklung anfangen?</p>
-      <div class="actions">
-        <button>Löschen</button>
-      </div>
-    </div>
-
-  </main>
-
+<script src="script.js"></script>
 </body>
-
 </html>
