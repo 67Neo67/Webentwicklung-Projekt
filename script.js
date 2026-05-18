@@ -26,7 +26,11 @@ function clearForm() {
 
 function savePosts() {
   localStorage.setItem('posts', JSON.stringify(posts));
+sendJsonWithPOST(
+  'http://localhost:3000/',
+  JSON.stringify(posts))
 }
+
 
 function formatDate(dateString) {
   const date = new Date(dateString);
@@ -131,3 +135,11 @@ function saveEdit(index) {
 }
 
 renderPosts();
+
+
+async function sendJsonWithPOST(url, jsonString) {
+  const response = await fetch(url, {
+    method: 'post',
+    body: jsonString,
+  });
+}
